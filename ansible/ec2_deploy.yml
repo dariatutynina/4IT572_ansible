@@ -6,9 +6,9 @@
     - name: Launch EC2 Instance
       ec2: 
         instance_type: t2.micro
-        image: ami-0b0dcb5067f052a63
+        image: ami-0574da719dca65348
         region: us-east-1
-        key_name: devops
+        key_name: dasha
         vpc_subnet_id: subnet-0cfdb2b07721723a8
         group: eshop
         count: 1
